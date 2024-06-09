@@ -1,4 +1,5 @@
 import './Homepage.css';
+import videoFile from './homevideo.mp4';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         </nav>
         <div className="hero-content">
         <video autoPlay muted loop className="video-background">
-          <source src="" type="video/mp4" />
+          <source src="./homevideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
           <div className="description">
