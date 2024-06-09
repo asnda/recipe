@@ -9,7 +9,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+  grid-template-columns: repeat(3, 1fr); /* Create 2 columns */
   gap: 20px; /* Adjust space between items */
 }
 
