@@ -1,4 +1,4 @@
-import './App.css';
+import './Homepage.css';
 
 function App() {
   return (
@@ -79,3 +79,4 @@ function App() {
       </section>
     </div>
   );
+}
