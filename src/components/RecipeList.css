@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.recipe-list {
+  padding: 20px;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+  gap: 20px; /* Adjust space between items */
+}
+
+.recipe-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+}
+
+.recipe-thumbnail {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.view-link {
+  color: white;
+  background-color: orange; /* Set background color to orange */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.view-link:hover {
+  background-color: darkorange; /* Darken the background color on hover */
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  background-color: orange; /* Set background color to orange */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.back-link:hover {
+  background-color: darkorange; /* Darken the background color on hover */
+}
+
+
+.nutrition-info {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.nutrition-info p {
+  margin: 5px 0;
+}

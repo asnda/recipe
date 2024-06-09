@@ -1,42 +1,16 @@
-body {
-  font-family: 'Comic Neue', sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-}
-
-.recipe-list {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.recipe-item {
-  background-color: #fff;
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.view-link {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.view-link:hover {
-  text-decoration: underline;
-}
-
 .recipe-detail {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .recipe-image {
   max-width: 100%;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .recipe-info {
@@ -77,13 +51,30 @@ ul, ol {
   margin: 5px 0;
 }
 
+.view-link {
+  color: white;
+  background-color: orange; /* Set background color to orange */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.view-link:hover {
+  background-color: darkorange; /* Darken the background color on hover */
+}
+
 .back-link {
   display: inline-block;
   margin-top: 20px;
-  color: #007bff;
+  color: white;
+  background-color: orange; /* Set background color to orange */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add rounded corners */
   text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 .back-link:hover {
-  text-decoration: underline;
+  background-color: darkorange; /* Darken the background color on hover */
 }
