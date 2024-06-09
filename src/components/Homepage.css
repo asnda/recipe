@@ -1,0 +1,127 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    background-color: yellow;
+    padding: 80px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-family: "Gloria Halleluyah", cursive;
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .description {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff; /* Set background color */
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for a rounded look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    margin-left: 20px; /* Adjust spacing between links */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease; /* Add transition effect */
+  }
+  
+  .nav-links a:hover {
+    color: #ff6f00; /* Change color on hover */
+  }
+  
+  .rotating-picture img {
+    width: 350px; /* Increase width */
+    height: 350px; /* Increase height */
+    border-radius: 50%; /* Make the image round */
+    animation: rotate 5s linear infinite;
+    border: color(orange);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .btn {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #e65100;
+  }
+  /* Add styles for groceries section */
+  .groceries-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .groceries-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Rock Salt", cursive;
+    color: orange;
+  }
+  
+  /* Grid layout for grocery items */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item p {
+    margin-bottom: 10px;
+  }
+  
+  .grid-item a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+  }
+  
+  
