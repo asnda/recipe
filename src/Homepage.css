@@ -3,8 +3,9 @@
   }
   
   .hero-section {
-    background-color: yellow;
-    padding: 80px;
+    background-image: url(https://i.pinimg.com/564x/0e/a0/f3/0ea0f344e91306b4a68c23787eb5ac52.jpg);
+    background-size: cover;
+    padding: 200px;
   }
   
   .logo {
@@ -24,16 +25,20 @@
   .description {
     flex: 1;
     margin-right: 20px;
+    color: white;
   }
   .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: transparent;
     padding: 20px;
-    border-radius: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
+  
   
   .nav-links {
     display: flex;
