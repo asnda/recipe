@@ -222,22 +222,20 @@ const App = () => {
       <div className="App">
         {/* Hero Section */}
         <header className="hero">
-         
-          <div className="hcontent">
-            <h1>Welcome to TASTY</h1>
-            <p>
-              Discover a world of delightful recipes that will transform your
-              kitchen into a haven of flavor and joy. Whether you're a seasoned
-              chef or just starting out, we have something for everyone. Dive
-              into our collection and let your culinary journey begin!
-              <br />
-              Happy Cooking!
-              <br />
-              The TASTY Team
-            </p>
-            
-          </div>
-        </header>
+  
+  <div className="hcontent">
+    <h1>Welcome to TASTY</h1>
+    <p>
+      Discover a world of delightful recipes that will transform your kitchen
+      into a haven of flavor and joy. Whether you're a seasoned chef or just
+      starting out, we have something for everyone. Dive into our collection
+      and let your culinary journey begin! <br /> Happy Cooking! <br /> The
+      TASTY Team
+    </p>
+  </div>
+</header>
+
+
         <section className="about-us">
     <div className="about-us-content">
       <h2>About Us</h2>
